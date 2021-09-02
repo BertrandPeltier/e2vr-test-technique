@@ -1,0 +1,31 @@
+.liste {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  li{
+    padding-right: 0.3em;
+  }
+}
+
+.subtitle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  .image {
+    img {
+      height: 150px !important;
+    }
+  }
+  .button {
+    width: 50%;
+    margin: auto;
+  }
+}

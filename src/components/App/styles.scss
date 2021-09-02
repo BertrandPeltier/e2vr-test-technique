@@ -1,0 +1,23 @@
+html {
+  font-size: 12px;
+}
+
+.app {
+  width: 70%;
+  margin: auto;
+  &__title {
+    margin: 1em;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  &__content {
+    min-height: 85vh;
+    max-height: 85vh;
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+  }
+}
