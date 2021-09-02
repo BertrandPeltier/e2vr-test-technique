@@ -1,7 +1,7 @@
 // == Import npm
 import React, { useState, useEffect } from 'react';
 import { Button } from 'semantic-ui-react';
-import Result from 'src/components/Result';
+import Cards from 'src/components/Cards';
 import axios from 'axios';
 
 // == Import
@@ -44,7 +44,7 @@ const App = () => {
         <>
           <h1 className="app__title">List Popular Videos Game of 2020</h1>
           <div className="app__content">
-            <Result games={results} />
+            <Cards games={results} />
           </div>
           <div className="app__footer">
             <Button

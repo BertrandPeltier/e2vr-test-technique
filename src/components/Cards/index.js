@@ -3,7 +3,7 @@ import { Card } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import GameData from './card';
 
-function Result({ games }) {
+function Cards({ games }) {
   return (
     <Card.Group itemsPerRow={4} stackable doubling>
       {games.map((game) => (
@@ -13,8 +13,8 @@ function Result({ games }) {
   );
 }
 
-Result.propTypes = {
+Cards.propTypes = {
   games: PropTypes.array.isRequired,
 };
 
-export default Result;
+export default Cards;
