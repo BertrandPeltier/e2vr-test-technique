@@ -5,7 +5,7 @@ Test technique pour la société E2VR selon un cahier des charges confidentiel.
 - API : https://rawg.io/apidocs 
 - Librairie JavaScript : REACT
 - Framework CSS : https://react.semantic-ui.com/
-- Starting model : odèle/template de projet React
+- Starting model : modèle/template de projet React
 
 ## Quick start
 `yarn` : installation des dépendances du projet
